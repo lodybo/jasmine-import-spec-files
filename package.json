@@ -1,0 +1,22 @@
+{
+  "name": "jasmine-import-spec-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "update": "webdriver-manager update",
+    "pretest": "tsc",
+    "test": "protractor protractor.conf.js"
+  },
+  "keywords": [],
+  "author": "Lody Borgers <l.borgers@taf.nl> (https://www.lodybo.nl)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.53",
+    "@types/jasminewd2": "^2.0.2",
+    "jasmine-spec-reporter": "^4.1.1",
+    "protractor": "5.1.2",
+    "typescript": "2.4.2"
+  }
+}
